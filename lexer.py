@@ -46,3 +46,4 @@ class Lexer:
                 if(word.strip() in constant.keywords):
                     self.appendToken(word,constant.keywords.get(word))
                     word = ""
+            return self.tokens
