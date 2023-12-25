@@ -1,0 +1,2 @@
+keywords = {"print":"PRINT_STATEMENT","if":"IF_CONDITION","else":"ELSE_CONDITION","elif":"ELIF_CONDITION","end":"END","def":"FUNCTION"}
+operators = {"+":"ADD","-":"SUBTRACT","*":"MULTIPLY","/":"DIVIDE","=":"EQUALS","(":"BRACKET_OPEN",")":"BRACKET_CLOSE","<":"LESSER_THAN",">":"GREATER_THAN"}

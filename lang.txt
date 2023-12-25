@@ -1,0 +1,7 @@
+print "Hello world!"
+x = 35
+a = 10
+b = 20
+adsd="hi there"
+print a
+print("Vanakam da mapla")
