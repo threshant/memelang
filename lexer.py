@@ -1,9 +1,10 @@
 import constant
-from tok import Token
+from token import Token
 class Lexer:
     def __init__(self) -> None:
         self.tokens = []
         pass
+    
     def appendToken(self,word, type):
             if(len(word)>0):
                 word = word.rstrip()
@@ -45,9 +46,3 @@ class Lexer:
                 if(word.strip() in constant.keywords):
                     self.appendToken(word,constant.keywords.get(word))
                     word = ""
-
-       
-
-                            
-                
-       # print(tokens)

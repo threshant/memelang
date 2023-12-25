@@ -1,4 +1,4 @@
-from tok import *
+from token import *
 from lexer import *
 f = open("lang.txt","r")
 lexer = Lexer()
